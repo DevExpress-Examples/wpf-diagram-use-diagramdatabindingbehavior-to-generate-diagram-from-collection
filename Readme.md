@@ -3,7 +3,7 @@
 
 * [ClassData.cs](./CS/DiagramDataBindingBehavior/Data/ClassData.cs) (VB: [ClassData.vb](./VB/DiagramDataBindingBehavior/Data/ClassData.vb))
 * [ClassStructureGenerator.cs](./CS/DiagramDataBindingBehavior/Data/ClassStructureGenerator.cs) (VB: [ClassStructureGenerator.vb](./VB/DiagramDataBindingBehavior/Data/ClassStructureGenerator.vb))
-* [MainWindow.xaml](./CS/DiagramDataBindingBehavior/MainWindow.xaml) (VB: [MainWindow.xaml.vb](./VB/DiagramDataBindingBehavior/MainWindow.xaml.vb))
+* [MainWindow.xaml](./CS/DiagramDataBindingBehavior/MainWindow.xaml) (VB: [MainWindow.xaml](./VB/DiagramDataBindingBehavior/MainWindow.xaml))
 * [MainWindow.xaml.cs](./CS/DiagramDataBindingBehavior/MainWindow.xaml.cs) (VB: [MainWindow.xaml.vb](./VB/DiagramDataBindingBehavior/MainWindow.xaml.vb))
 * [ViewModel.cs](./CS/DiagramDataBindingBehavior/ViewModel/ViewModel.cs) (VB: [ViewModel.vb](./VB/DiagramDataBindingBehavior/ViewModel/ViewModel.vb))
 <!-- default file list end -->
