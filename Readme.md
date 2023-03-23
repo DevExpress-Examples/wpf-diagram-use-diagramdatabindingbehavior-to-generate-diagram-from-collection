@@ -15,7 +15,7 @@ This example uses the [DiagramDataBindingBehavior](https://docs.devexpress.com/W
 
    * The [ItemsSource](https://docs.devexpress.com/WPF/DevExpress.Xpf.Diagram.DiagramDataBindingBehaviorBase.ItemsSource) property specifies a collection of diagram items.
    * The [KeyMember](https://docs.devexpress.com/WindowsForms/DevExpress.XtraDiagram.DiagramDataBindingControllerBase.KeyMember) and [ConnectorsSource](https://docs.devexpress.com/WPF/DevExpress.Xpf.Diagram.DiagramDataBindingBehavior.ConnectorsSource) properties allow you to display relationships between diagram items.
-   * The [ConnectorFromMember](https://docs.devexpress.com/WPF/DevExpress.Xpf.Diagram.DiagramDataBindingBehavior.ConnectorFromMember) and [ConnectorToMember](https://docs.devexpress.com/WPF/DevExpress.Xpf.Diagram.DiagramDataBindingBehavior.ConnectorToMember) properties specify data fields that describe a connector's begin and end items.
+   * The [ConnectorFromMember](https://docs.devexpress.com/WPF/DevExpress.Xpf.Diagram.DiagramDataBindingBehavior.ConnectorFromMember) and [ConnectorToMember](https://docs.devexpress.com/WPF/DevExpress.Xpf.Diagram.DiagramDataBindingBehavior.ConnectorToMember) properties specify data fields that contain a connector's begin and end items.
 
 3. Use the [Item Template Designer](https://docs.devexpress.com/WPF/117615/controls-and-libraries/diagram-control/data-binding/item-template-designer) to create "templates" for diagram items and connectors.
 4. The [TemplateDiagram](https://docs.devexpress.com/WPF/DevExpress.Xpf.Diagram.DiagramDataBindingBehaviorBase.TemplateDiagram) object contains generated code with diagram shapes and connectors.
