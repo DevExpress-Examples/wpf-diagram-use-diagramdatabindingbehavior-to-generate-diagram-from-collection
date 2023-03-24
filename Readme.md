@@ -6,7 +6,7 @@
 
 # WPF Diagram - Use the DiagramDataBindingBehavior to Generate a Diagram from a Collection
 
-This example uses the [DiagramDataBindingBehavior](https://docs.devexpress.com/WPF/DevExpress.Xpf.Diagram.DiagramDataBindingBehavior) to generate a diagram from a data source or a collection.
+This example uses the [DiagramDataBindingBehavior](https://docs.devexpress.com/WPF/DevExpress.Xpf.Diagram.DiagramDataBindingBehavior) to generate a diagram from a data source or collection.
 
 ![image](https://user-images.githubusercontent.com/65009440/227240921-0829fac7-6180-487b-9971-e9585ee6469f.png)
 
