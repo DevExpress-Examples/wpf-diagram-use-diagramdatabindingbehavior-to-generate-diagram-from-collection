@@ -11,6 +11,7 @@ This example uses the [DiagramDataBindingBehavior](https://docs.devexpress.com/W
 ![image](https://user-images.githubusercontent.com/65009440/227240921-0829fac7-6180-487b-9971-e9585ee6469f.png)
 
 1. Add the [DiagramDataBindingBehavior](https://docs.devexpress.com/WPF/DevExpress.Xpf.Diagram.DiagramDataBindingBehavior) to the [DiagramControl](https://docs.devexpress.com/WPF/DevExpress.Xpf.Diagram.DiagramControl).
+
 2. Specify the following properties to map the behavior to data:
 
    * The [ItemsSource](https://docs.devexpress.com/WPF/DevExpress.Xpf.Diagram.DiagramDataBindingBehaviorBase.ItemsSource) property specifies a collection of diagram items.
@@ -18,8 +19,10 @@ This example uses the [DiagramDataBindingBehavior](https://docs.devexpress.com/W
    * The [ConnectorFromMember](https://docs.devexpress.com/WPF/DevExpress.Xpf.Diagram.DiagramDataBindingBehavior.ConnectorFromMember) and [ConnectorToMember](https://docs.devexpress.com/WPF/DevExpress.Xpf.Diagram.DiagramDataBindingBehavior.ConnectorToMember) properties specify data fields that contain a connector's begin and end items.
 
 3. Use the [Item Template Designer](https://docs.devexpress.com/WPF/117615/controls-and-libraries/diagram-control/data-binding/item-template-designer) to create "templates" for diagram items and connectors.
-4. The [TemplateDiagram](https://docs.devexpress.com/WPF/DevExpress.Xpf.Diagram.DiagramDataBindingBehaviorBase.TemplateDiagram) object contains generated code with diagram shapes and connectors.
-5. Handle the [GenerateItem](https://docs.devexpress.com/WPF/DevExpress.Xpf.Diagram.DiagramDataBindingBehaviorBase.GenerateItem) and [GenerateConnector](https://docs.devexpress.com/WPF/DevExpress.Xpf.Diagram.DiagramDataBindingBehaviorBase.GenerateConnector) events to display different items based on a condition.
+
+   The [TemplateDiagram](https://docs.devexpress.com/WPF/DevExpress.Xpf.Diagram.DiagramDataBindingBehaviorBase.TemplateDiagram) object contains generated code with diagram shapes and connectors.
+   
+4. Handle the [GenerateItem](https://docs.devexpress.com/WPF/DevExpress.Xpf.Diagram.DiagramDataBindingBehaviorBase.GenerateItem) and [GenerateConnector](https://docs.devexpress.com/WPF/DevExpress.Xpf.Diagram.DiagramDataBindingBehaviorBase.GenerateConnector) events to display different items based on a condition.
 
    In these event handlers, the [TemplateName](https://docs.devexpress.com/WPF/DevExpress.Xpf.Diagram.DiagramItem.TemplateName) property value allows you to identify generated items.
 
