@@ -41,4 +41,5 @@ This example uses the [DiagramDataBindingBehavior](https://docs.devexpress.com/W
 
 ## More Examples
 
+* [WPF Diagram - Generate Diagrams with Grouped Items](https://github.com/DevExpress-Examples/wpf-generate-diagram-with-grouped-items)
 * [WPF Diagram - Use the DiagramOrgChartBehavior to Generate a Diagram from a Collection](https://github.com/DevExpress-Examples/how-to-generate-a-diagram-from-a-collection-using-diagramorgchartbehavior-t476835)
